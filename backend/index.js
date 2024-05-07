@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get("/api", (_request, response) => {
-  response.send({ hello: "World" });
+  response.send({ hello: "World!!!!" });
 });
 
 app.use(express.static(path.join(path.resolve(), "dist")));
