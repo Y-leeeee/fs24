@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "render" : "curl https://api.render.com/deploy/srv-cot7fv6v3ddc73fb0370?key=L_-cgJwr4SE",
+    "render": "curl https://api.render.com/deploy/srv-cot7fv6v3ddc73fb0370?key=L_-cgJwr4SE",
     "build-frontend": "npm run --prefix ../frontend build && rm -Rf dist && mv ../frontend/dist .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

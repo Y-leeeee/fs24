@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div>Hello Youri Lee</div>
+      <div>Hello Youri </div>
       <p className="read-the-docs"></p>
     </>
   );
